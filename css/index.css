@@ -1,0 +1,185 @@
+
+::root{
+     --border:2px solid #ff0000;
+}
+html,body{
+     font-family: 'Poppins', sans-serif;
+}
+a {
+     color: #5a5a5a;
+     text-decoration: none;
+     font-weight: 500;
+}
+a:hover{
+     color:#000000
+}
+.logo{
+     font-size: 30px;
+     margin: 0 20px;
+}
+header{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap:20px;
+}
+header > a {
+     font-size: 18px;
+}
+.mx-4{
+     margin: 0 20px;
+}
+
+section.hero {
+     margin: 50px 0;
+}
+section.hero > img {
+}
+.course{
+     padding: 20px;
+}
+.cards {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     align-items: center;
+     justify-content: center;
+}
+.cards > .card{
+     display: flex;
+     gap: 20px;
+     width: 100%;
+     flex-wrap: wrap;
+     justify-content: center;
+
+}
+.card > div{
+     border-radius: 15px;
+     height: 200px;
+     background-color: #5a5a5a;
+     max-width: 400px;
+     height: 400px;
+     width: 100%;     
+}
+
+.sem-card{
+     opacity: 1;
+     height: 400px;
+     width: 400px;
+     border-radius: 15px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-family: sans-serif;
+     color: rgb(23, 64, 62);
+     transition: 0.5s;
+     transform: translateY(0);
+}
+.bg-greenish{
+     background-color: rgb(131, 219, 160);;
+     
+}
+.bg-yellowish{
+     background-color:rgb(244, 233, 127);
+}
+.bg-blue{
+     background-color: #ABD9FF;
+}
+.bg-pink{
+     background-color: rgb(216, 193, 237);
+}
+.hide-card{
+     /* opacity: 0;
+     transform: translateY(100px);
+     border:var(--border); */
+}
+
+.bg-custom1{
+     background-color: #CDE990;
+}
+
+.bg-custom2{
+     background-color: #e2829f;
+}
+.bg-custom3{
+     background-color: #C499BA;
+}
+
+.bg-custom4{
+     background-color: #DFFFD8;
+}
+.bg-blue1{
+     background-color: rgb(87, 80, 241);
+}
+.h3{
+     color: #ffffff;
+}
+.hero {
+}
+
+
+.hero-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.hero-container > img {
+     /* width:500px; */
+     height: 500px;
+
+     /* border: 2px solid red; */
+     
+}
+.empty1{
+     flex: 1;
+}
+.empty2{
+     flex:2;
+}
+.hero-text{
+     /* border: 1px solid red; */
+     /* max-width: 500px; */
+     max-width: 500px;
+     /* max-width: fit-content; */
+
+}
+.smc-note-logo{
+     height:100px;
+}
+.m-0{
+     margin: 0;
+}
+.fs-50{
+     font-size: 50px;
+}
+.fw-5{
+     font-weight: 500;
+}
+h2{
+     line-height: 54px;
+     font-weight: 700;
+     font-family: 'Roboto Mono', monospace;
+     font-family: 'Source Code Pro', monospace;
+     color: #062f54;
+}
+p{
+     line-height: 54px;
+     font-family: 'Source Code Pro', monospace;
+     color: #00c385;
+
+}
+.slogan-des{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+}
+.slogan-des > p{
+     margin: 0;
+     width: 50%;
+     font-size: 28px;
+     color: #062f54;
+     font-family: 'Poppins', sans-serif;
+     line-height: 40px;
+     font-weight: 300;
+}
